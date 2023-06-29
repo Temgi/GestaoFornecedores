@@ -1,0 +1,16 @@
+br\com\temgi\erp\id\RelatorioServlet.class
+br\com\temgi\erp\id\RelatorioService.class
+br\com\temgi\erp\util\EntityManagerProducer.class
+br\com\temgi\erp\controller\RamoAtividadeConverter.class
+br\com\temgi\erp\model\TipoEmpresa.class
+br\com\temgi\erp\service\CadastroEmpresaService.class
+br\com\temgi\erp\repository\RamoAtividades.class
+br\com\temgi\erp\util\Transacional.class
+br\com\temgi\erp\util\FacesMessages.class
+br\com\temgi\erp\model\Empresa.class
+br\com\temgi\erp\id\Pedidos.class
+br\com\temgi\erp\util\TransacionalInterceptor.class
+br\com\temgi\erp\controller\GestaoEmpresasBean.class
+br\com\temgi\erp\model\RamoAtividade.class
+br\com\temgi\erp\repository\Empresas.class
+br\com\temgi\erp\id\Main.class
