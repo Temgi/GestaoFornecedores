@@ -4,7 +4,7 @@
 
 # Sobre o Projeto
 
-<a href="http://app-java.ddns.net:8084/Fornecedores/GestaoEmpresas.xhtml" target="_blank">Acesso ao Projeto Online</a>
+Projeto Online: http://app-java.ddns.net:8084/Fornecedores/GestaoEmpresas.xhtml
 
 Gestão de Fornecedores é uma Aplicação Web Componentizada, foi Construída Objetivando a Prática e a Consolidação dos Conhecimentos nas Tecnologias do JavaEE(Java, JSF, CDI, PrimeFaces, TomCat, Hibernate, Bean Validation, JPA e MySQL), Oriunda do Trabalho no Penultimo Semestre do Curso Técnico em Processamento de Dados.
 
