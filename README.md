@@ -2,6 +2,10 @@
 # Gestão Fornecedores
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/Temgi/GestaoFornecedores/blob/main/LICENSE) 
 
+<p align="center">
+<img src="https://img.shields.io/badge/STATUS-completo-blue?style=for-the-badge">
+</p>
+
 # Sobre o Projeto
 
 <a href="http://app-java.ddns.net:8084/Fornecedores/GestaoEmpresas.xhtml" target="_blank" rel="noopener">Acesso ao Projeto Online</a>
@@ -59,25 +63,30 @@ A aplicação Consiste no Controle de Fornecedores, onde os dados são coletados
 
 # Como Executar o Projeto
 
-## Back-End
+## Instalações
 1-Baixar e Instalar o Java-JDK no Link Abaixo:
 <br>
 https://www.oracle.com/br/java/technologies/javase/javase8-archive-downloads.html
 <br><br>
 2-Configurar Variáveis de Ambiente do Java-JDK Conforme Link Abaixo:
+<br>
 https://www.alura.com.br/apostila-java-orientacao-objetos/apendice-instalacao-do-java
 <br><br>
 3-Baixar e Instalar o MySQL no Link Abaixo:
 <br>
 https://dev.mysql.com/downloads/windows/installer/8.0.html
+<br>
+https://www.alura.com.br/artigos/mysql-do-download-e-instalacao-ate-sua-primeira-tabela
 <br><br>
-4-Script SQL para Criação do Banco de Dados
+
+## Configuração Banco de Dados
+1-Script SQL para Criação do Banco de Dados
 ~~~sql
 CREATE SCHEMA `fornecedores`;
 ~~~
 <br>
 
-5-Script SQL para Popular Tabela EMPRESA
+2-Script SQL para Popular Tabela EMPRESA
 ~~~sql
 insert into empresa (id, cnpj, nome_fantasia, razao_social, tipo, data_fundacao, ramo_atividade_id)
 values (1, '70.311.193/0001-87', 'Mercado do João', 'João Mercado e Distribuidor de Alimentos Ltda', 'LTDA', '2009-03-02', 1);
@@ -102,10 +111,16 @@ values (7, '41.952.519/0001-57', 'CNA Inglês e Espanhol', 'Escola de Idiomas CN
 
 insert into empresa (id, cnpj, nome_fantasia, razao_social, tipo, data_fundacao, ramo_atividade_id)
 values (8, '16.134.777/0001-89', 'CVC Turismo', 'CVC Viagens e Turismo EIRELI ME', 'EIRELI', '2009-03-02', 7);
+
+insert into empresa (id, cnpj, nome_fantasia, razao_social, tipo, data_fundacao, ramo_atividade_id)
+values (9, '41.952.519/0001-57', 'H-OFFICE', 'Mecânica HONDA Especializada', 'MEI', '2014-10-15', 6);
+
+insert into empresa (id, cnpj, nome_fantasia, razao_social, tipo, data_fundacao, ramo_atividade_id)
+values (10, '16.134.777/0001-89', 'Cinemark', 'Cinemark Lazer e Entretenimento EIRELI ME', 'EIRELI', '2009-03-02', 10);
 ~~~
 <br>
 
-6-Script SQL para Popular Tabela RAMO_ATIVIDADE
+3-Script SQL para Popular Tabela RAMO_ATIVIDADE
 ~~~sql
 INSERT INTO ramo_atividade (id, descricao) VALUES (1, 'Distribuição de alimentos');
 INSERT INTO ramo_atividade (id, descricao) VALUES (2, 'Telecomunicações');
@@ -120,26 +135,20 @@ INSERT INTO ramo_atividade (id, descricao) VALUES (10, 'Lazer');
 ~~~
 <br>
 
-Pré-requisitos: Java 11
+## Execução e Deploy do Projeto
 
 ```bash
 # Clonar Repositório
 git clone https://github.com/Temgi/GestaoFornecedores.git
 
-# Entrar na pasta do Projeto GestaoFornecedores
-cd GestaoFornecedores
-
-# executar o projeto
--Baixar e Descompactar o Apache TomCat 8.5.6
--Copiar o Arquivo [Fornecedores.war] dentro da Pasta do Projeto GestaoFornecedores
+# Executar o Projeto
+-Baixar e Descompactar o Apache TomCat 8.5.88
+-Copiar o Arquivo [Fornecedores.war] dentro da Pasta target do Projeto [GestaoFornecedores]
 -Colar na Pasta de Deploy do TomCat no Caminho C:\apache-tomcat-8.5.88\webapps
 -Acessar a Pasta de Execução do TomCat no Caminho C:\apache-tomcat-8.5.88\bin
--Executar o Script start.bat
+-Executar o Script [start.bat]
+-Acessar no Chrome o Endereço: http://localhost:8080/Fornecedores/GestaoEmpresas.xhtml
 ```
-
-
-## Front-End
-Pré-requisitos: npm / yarn
 
 
 # Autor
