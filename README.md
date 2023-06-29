@@ -36,7 +36,7 @@ A aplicação Consiste no Controle de Fornecedores, onde os dados são coletados
 ## Estrutura de Classes
 ![Estrutura de Classes](https://github.com/Temgi/GestaoFornecedores/blob/main/assets/EstruturaClasses.png)
 
-# Tecnologias utilizadas
+# Tecnologias Utilizadas
 ## Back End
 - Java
 - JSF
