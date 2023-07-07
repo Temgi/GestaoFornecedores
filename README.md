@@ -22,7 +22,7 @@
 * [Estrutura de Classes](#-estrutura-de-classes)
 * [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 * [Modelo Entidade Relacionamento](#-modelo-entidade-relacionamento) 
-* [Como Executar o Projeto](#-como-executar-o-projeto)
+* [Como Executar o Projeto](#como-executar-o-projeto)
 * [Autor](#-autor)
 
 ## 💻 Interface Web
