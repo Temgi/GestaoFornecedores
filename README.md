@@ -6,59 +6,72 @@
 <img src="https://img.shields.io/badge/STATUS-completo-blue?style=for-the-badge">
 </p>
 
-# Sobre o Projeto
+## 🧠 Sobre o Projeto
+<p>Gestão de Fornecedores é uma Aplicação Web Componentizada, foi Construída Objetivando a Prática e a Consolidação dos Conhecimentos nas Tecnologias do JavaEE(Java, JSF, CDI, PrimeFaces, TomCat, Hibernate, Bean Validation, JPA e MySQL), Oriunda do Trabalho no Penultimo Semestre do Curso Técnico em Processamento de Dados.</p>
 
-<a href="http://app-java.ddns.net:8084/Fornecedores/GestaoEmpresas.xhtml" target="_blank" rel="noopener">Acesso ao Projeto Online</a>
+<p>A aplicação Consiste no Controle de Fornecedores, onde os dados são coletados na Interface Web, e depois são listados na própria Página, apresenta também uma Barra de Ferramentas com Pesquisa, Inclusão, Edição, Exclusão e Exportação para o Excel. Além disso o Aplicativo conta com os Recursos de Ordenação, Paginação, Componente de Messagem, Validação, Pesquisa, Componente de Calendário e Modal de Novo Cadastro. Resolvendo Assim o Problema de Organização e Controle de um Grande Volume de Fornecedores, Centralizando Tudo num Único Ponto de Maneira Fácil e Rápida para Usuário.</p>
 
+<a href="http://app-java.ddns.net:8084/Fornecedores/GestaoEmpresas.xhtml" target="_blank" rel="noopener">Link do Projeto para Acesso Online</a>
 
-Gestão de Fornecedores é uma Aplicação Web Componentizada, foi Construída Objetivando a Prática e a Consolidação dos Conhecimentos nas Tecnologias do JavaEE(Java, JSF, CDI, PrimeFaces, TomCat, Hibernate, Bean Validation, JPA e MySQL), Oriunda do Trabalho no Penultimo Semestre do Curso Técnico em Processamento de Dados.
+## 💻 Interface Web
+<br>
 
-A aplicação Consiste no Controle de Fornecedores, onde os dados são coletados na Interface Web, e depois são listados na própria Página, apresenta também uma Barra de Ferramentas com Pesquisa, Inclusão, Edição, Exclusão e Exportação para o Excel. Além disso o Aplicativo conta com os Recursos de Ordenação, Paginação, Componente de Messagem, Validação, Pesquisa, Componente de Calendário e Modal de Novo Cadastro. Resolvendo Assim o Problema de Organização e Controle de um Grande Volume de Fornecedores, Centralizando Tudo num Único Ponto de Maneira Fácil e Rápida para Usuário.
-
-## Layout Web
 ![Layout Web](https://github.com/Temgi/GestaoFornecedores/blob/main/assets/LayoutWeb2.png)
 
-## Modelo Conceitual
+## 🎨 Modelo Conceitual
+<br>
+
 ![Modelo Conceitual](https://github.com/Temgi/GestaoFornecedores/blob/main/assets/ModeloConceitual.png)
 
-## Funcionalidades
+## ⚙️ Funcionalidades
 
-1. Inclusão de Fornecedores
-2. Ordenação
-3. Paginação
-4. Componente de Mensagem
-5. Validação
-6. Pesquisa de Fornecedores
-7. Edição de Fornecedores
-8. Exportação para o Excel
-9. Componente de Calendário
-10. Exclusão de Fornecedores
-11. Modal de Cadastro e Remoção
+- [x] Inclusão de Fornecedores
+- [x] Ordenação
+- [x] Paginação
+- [x] Componente de Mensagem
+- [x] Validação
+- [x] Pesquisa de Fornecedores
+- [x] Edição de Fornecedores
+- [x] Exportação para o Excel
+- [x] Componente de Calendário
+- [x] Exclusão de Fornecedores
+- [x]  Modal de Cadastro e Remoção
 
-## Modal de Diálogo
+## 💡 Modal de Diálogo
+<br>
+
 ![Modal 1](https://github.com/Temgi/GestaoFornecedores/blob/main/assets/Modal1.png) ![Modal 2](https://github.com/Temgi/GestaoFornecedores/blob/main/assets/Modal2.png)
 
-## Estrutura de Classes
+## 🎯 Estrutura de Classes
+<br>
+
 ![Estrutura de Classes](https://github.com/Temgi/GestaoFornecedores/blob/main/assets/EstruturaClasses.png)
 
-# Tecnologias Utilizadas
-## Back End
-- Java
-- JSF
-- CDI (Context Dependency Injection)
-- JPA / Hibernate
-- TomCat (Servlet Container)
-- Maven
-- Bean Validation
-- MySQL
-## Front End
-- XHTML
-- PrimeFaces
-- AJAX
+## 🚀 Tecnologias Utilizadas:
+### Back-End
+<ul>
+        <li> Java</li>
+        <li> JSF</li>
+        <li> CDI (Context Dependency Injection)</li>
+        <li> Thymeleaf</li>
+        <li> Maven</li>
+        <li> Apache TomCat(Servlet Container)</li>
+        <li> JPA-Hibernate</li>
+        <li> Bean Validation</li>
+        <li> MySQL</li>
+</ul>
 
-## Modelo Entidade Relacionamento
+### Front-End
+<ul>
+        <li>XHTML</li>
+        <li>PrimeFaces</li>
+        <li>AJAX</li>
+</ul>
+
+## 🔥 Modelo Entidade Relacionamento
+<br>
+
 ![MER](https://github.com/Temgi/GestaoFornecedores/blob/main/assets/MER.png)
-
 
 
 # Como Executar o Projeto
@@ -151,8 +164,14 @@ git clone https://github.com/Temgi/GestaoFornecedores.git
 ```
 
 
-# Autor
+## 📝 **Autor**
+
+<table>
+<tr>
+<td align="center"><a href="https://github.com/Temgi"><img style="border-radius: 10%;" src="https://avatars.githubusercontent.com/u/8334174?v=4" width="80px;" alt="Foto de Rui Temgi Saraiva Azevedo no GitHub"/></a><br /></td>
+</tr>
+</table>
 
 Rui Azevedo
-
-https://www.linkedin.com/in/devruiazevedo/
+<br>
+Contatos:  <a href="https://www.linkedin.com/in/devruiazevedo/">LinkedIn</a> - <a href="https://wa.me/5511971973505?text=Olá.%20Estou%20Entrando%20em%20Contato%20a%20partir%20do%20Portfólio%20no%20GitHub.">WhatsApp</a> - <a href="#"> ruisaraivasp@gmail.com</a>
