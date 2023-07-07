@@ -86,9 +86,9 @@
 ![MER](https://github.com/Temgi/GestaoFornecedores/blob/main/assets/MER.png)
 
 
-# Como Executar o Projeto
+## 🏁 Como Executar o Projeto
 
-## Instalações
+### Instalações
 1-Baixar e Instalar o Java-JDK no Link Abaixo:
 <br>
 https://www.oracle.com/br/java/technologies/javase/javase8-archive-downloads.html
@@ -104,7 +104,7 @@ https://dev.mysql.com/downloads/windows/installer/8.0.html
 https://www.alura.com.br/artigos/mysql-do-download-e-instalacao-ate-sua-primeira-tabela
 <br><br>
 
-## Configuração Banco de Dados
+### Configuração Banco de Dados
 1-Script SQL para Criação do Banco de Dados
 ~~~sql
 CREATE SCHEMA `fornecedores`;
@@ -160,7 +160,7 @@ INSERT INTO ramo_atividade (id, descricao) VALUES (10, 'Lazer');
 ~~~
 <br>
 
-## Execução e Deploy do Projeto
+### Execução e Deploy do Projeto
 
 ```bash
 # Clonar Repositório
