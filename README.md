@@ -16,12 +16,12 @@
 ## 📗 Sumário
 
 * [Interface Web](#-interface-web)
-* [Layout Mobile](#-layout-mobile)
-* [Features](#%EF%B8%8F-features)
+* [Modelo Conceitual](#-modelo-conceitual)
+* [Funcionalidades](#%EF%B8%8F-funcionalidades)
 * [Modal Diálogo](#-modal-de-diálogo)
 * [Estrutura de Classes](#-estrutura-de-classes)
 * [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-* [Validação de Dados](#-validação-de-dados) 
+* [Modelo Entidade Relacionamento](#-modelo-entidade-relacionamento) 
 * [Como Executar o Projeto](#-como-executar-o-projeto)
 * [Autor](#-autor)
 
